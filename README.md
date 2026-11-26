@@ -34,7 +34,7 @@ Projet d'analyse de données réalisé en Python sur un dataset de ventes au Sé
 ## Structure du projet
 
 ```
-├── main.py                                     # Script d'analyse complet
+├── analyse_ventes.ipynb                        # Notebook d'analyse complet
 ├── dataset_ventes_analyse_pandas.csv           # Données brutes
 ├── dataset_ventes_analyse_pandas_cleaned.csv   # Données nettoyées (générées par le script)
 ├── graphiques_ventes.png                       # Graphiques (générés par le script)
@@ -99,11 +99,13 @@ source venv/bin/activate        # Windows : venv\Scripts\activate
 # Installer les dépendances
 pip install -r requirements.txt
 
-# Lancer l'analyse
-python main.py
+# Ouvrir le notebook
+jupyter notebook analyse_ventes.ipynb
 ```
 
-Le script affiche les résultats dans le terminal, génère `dataset_ventes_analyse_pandas_cleaned.csv` et `graphiques_ventes.png`, puis ouvre la fenêtre des graphiques.
+Exécuter toutes les cellules dans l'ordre. Le notebook affiche les résultats et les graphiques, puis génère `dataset_ventes_analyse_pandas_cleaned.csv` et `graphiques_ventes.png`.
+
+Le notebook peut aussi être ouvert directement dans VS Code.
 
 ## Technologies
 
